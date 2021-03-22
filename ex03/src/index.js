@@ -4,7 +4,7 @@ function myArrayFunction(myPets) {
   myNewPets.push("Bird", "Fish");
   var firstPet = myNewPets.shift();
   var lastPet = myNewPets.pop();
-  myNewPets.unshift("Lion")
+  myNewPets.unshift("Lion");
   console.log(lastPet);
   console.log(firstPet);
   return myNewPets;

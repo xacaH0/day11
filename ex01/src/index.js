@@ -5,7 +5,7 @@ function myArrayFunction(arr) {
   var myItems = [...arr];
   myItems[2] = 6;
 
-  return myItems
+  return myItems;
   
 }
 console.log(myArrayFunction(myArr));
